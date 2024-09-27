@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'zh-tw'
 title = 'entangled'
-theme = 'paper'
+theme = 'PaperMod'
 
 [params]
   # color style
