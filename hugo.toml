@@ -11,7 +11,6 @@ theme = 'paper'
   twitter = 'iampoo_'               # twitter.com/YOUR_TWITTER_ID
   github = 'Iampooo'                 # github.com/YOUR_GITHUB_ID
   linkedin = 'danielhan0829'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  rss = true                                # show rss icon
 
   # home page profile
   avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
