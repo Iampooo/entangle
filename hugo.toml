@@ -1,4 +1,4 @@
-baseURL = 'https://iampooo.github.io/'
+baseURL = 'https://example.org'
 languageCode = 'zh-tw'
 title = 'entangled'
 copyright: "© (iampoo)[https://iampooo.github.io/]"
