@@ -1,18 +1,87 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://iampooo.github.io/'
 languageCode = 'zh-tw'
 title = 'entangled'
+copyright: "© (iampoo)[https://iampooo.github.io/]"
 theme = 'PaperMod'
 
-[params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
 
-  # header social icons
-  twitter = 'iampoo_'               # twitter.com/YOUR_TWITTER_ID
-  github = 'Iampooo'                 # github.com/YOUR_GITHUB_ID
-  linkedin = 'danielhan0829'             # linkedin.com/in/YOUR_LINKEDIN_ID
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
 
-  # home page profile
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  name = 'Iampoo'
-  bio = 'iampoo'
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 10
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Project
+          url: projects/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "iampoo - entangled"
+  author: iampoo
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+homeInfoParams:
+    Title: "Welcom to entangled"
+    Content: >
+      Hi, iampoo. I'm documenting my learning note in this blog. Topics including quantum computing, ML/DL, CUDA programming, and more.
+
+socialIcons:
+  - name: github
+    title: View my Github page.
+    url: "https://github.com/Iampooo"
+  - name: X
+    title: X
+    url: "https://x.com/iampoo_"
+  - name: linkedin
+    title: linkedin
+    url: "https://linkedin.com/in/danielhan0829"
